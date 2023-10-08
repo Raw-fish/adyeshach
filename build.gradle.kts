@@ -42,7 +42,7 @@ subprojects {
         compileOnly("io.izzel.taboolib:module-metrics:$taboolib_version")
         compileOnly("io.izzel.taboolib:platform-bukkit:$taboolib_version")
         compileOnly("io.izzel.taboolib:expansion-command-helper:$taboolib_version")
-        implementation("io.izzel.taboolib:expansion-javascript:$taboolib_version")
+        api("io.izzel.taboolib:expansion-javascript:$taboolib_version")
         // server
         compileOnly("ink.ptms.core:v11604:11604")
         compileOnly("ink.ptms:nms-all:1.0.0")
